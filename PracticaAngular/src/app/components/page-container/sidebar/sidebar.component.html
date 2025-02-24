@@ -1,10 +1,15 @@
 <!-- sidebar.component.html -->
-<div class="bg-gray-800 text-white h-full w-64 p-4">
-    <h2 class="text-lg font-semibold mb-4">Menú</h2>
-    <ul>
-      <li><a class="block p-2 hover:bg-gray-700" routerLink="/page1">Página 1</a></li>
-      <li><a class="block p-2 hover:bg-gray-700" routerLink="/page2">Página 2</a></li>
-      <li><a class="block p-2 hover:bg-gray-700" routerLink="/page3">Página 3</a></li>
-    </ul>
-  </div>
-  
+<div class="bg-gray-800 text-white h-full w-64 p-6 flex flex-col shadow-xl rounded-r-lg">
+  <h2 class="text-2xl font-semibold mb-6 text-center">Menú</h2>
+  <ul class="space-y-4">
+    <li>
+      <a class="block p-3 rounded-lg hover:bg-gray-700 transition duration-300 ease-in-out transform hover:scale-105" routerLink="/page1">Página 1</a>
+    </li>
+    <li>
+      <a class="block p-3 rounded-lg hover:bg-gray-700 transition duration-300 ease-in-out transform hover:scale-105" routerLink="/page2">Página 2</a>
+    </li>
+    <li>
+      <a class="block p-3 rounded-lg hover:bg-gray-700 transition duration-300 ease-in-out transform hover:scale-105" routerLink="/page3">Página 3</a>
+    </li>
+  </ul>
+</div>
